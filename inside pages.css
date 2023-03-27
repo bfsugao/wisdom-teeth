@@ -1,0 +1,40 @@
+        /*设定body部分背景*/
+		body {
+		  background-image: url(https://bpic.588ku.com/back_our/bg/20201022/bg/4e009dc54df55_433768.jpg);
+		  background-size:cover;
+		}
+		/*设定分界面两个方框的内外边距*/
+		.box1 {
+		  width: 70%;
+		  height: 80%;
+		  padding-top: 10px;
+		  padding-left: 100px;
+		  background-color: rgba(255, 255, 255, 0.5);
+		  position:absolute;
+		  left: 17%;
+		  top:10%;
+		  bottom:10%;
+		}
+		.box2 {
+		  width: 10%;
+		  height: 20%;
+		  padding-top: 30px;
+		  background-color: rgba(255, 255, 255, 0.447);
+		  position:fixed;
+		  left: 5%;
+		  top: 10%;
+		}
+		/*设置各级标题及正文字体字号*/
+		#emphasis {color:rgb(237, 45, 74); font-weight: bolder;}
+		#english {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;}
+		h1 {font-size: 45px;color:rgb(172, 83, 54)}
+		h2 {font-size:25px;color:rgb(24, 17, 17)}
+		/* 分割线样式 */
+		 hr {
+			border:none;
+			height: 1px;
+			background-color: #333;
+			margin-top: 0px;
+			margin-bottom: 20px;
+			margin-right: 40px
+		}
